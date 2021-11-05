@@ -32,7 +32,7 @@ namespace FolhaDePagamento
         //conversão para string
         public override string ToString()
         {
-            return "Nome:" + Nome + ", Pagamento:" + Pagamento().ToString("F2", CultureInfo.InvariantCulture) ;
+            return "Nome: " + Nome + " - R$ " + Pagamento().ToString("F2", CultureInfo.InvariantCulture) ;
         }
     }
 }
